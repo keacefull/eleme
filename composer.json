@@ -1,11 +1,11 @@
 {
-    "name": "abbotton/eleme",
+    "name": "keacefull/eleme",
     "description": "饿了么零售开放平台SDK",
     "keywords": [
         "abbotton",
         "eleme"
     ],
-    "homepage": "https://github.com/abbotton/eleme",
+    "homepage": "https://github.com/keacefull/eleme",
     "license": "MIT",
     "type": "library",
     "authors": [

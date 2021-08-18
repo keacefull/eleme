@@ -20,20 +20,7 @@ class BaseRequest
     {
         $url = $this->config->baseUrl;
 
-        return $this->request('POST', $url, ['form_params' => $this->getParams($cmd, $params)]);
-    }
-
-    private function request($method, $url, $options = [])
-    {
-        $method = strtoupper($method);
-
-        $options['headers'] = [
-            'Content-Type' => 'application/x-www-form-urlencoded',
-        ];
-
-        $response = $this->client->request($method, $url, $options);
-
-        return $response->getBody()->getContents();
+        return $this->client->request("POST", ltrim($url, '/'), ['body' => $this->getParams($cmd, $params)])->toArray();
     }
 
     private function getParams(string $cmd, array $body)

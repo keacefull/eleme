@@ -10,7 +10,7 @@ use Abbotton\Eleme\Request\Shop;
 use Abbotton\Eleme\Request\Sku;
 use Abbotton\Eleme\Request\Ugc;
 use Exception;
-use GuzzleHttp\Client;
+use Symfony\Component\HttpClient\HttpClient;
 
 /**
  * Class Application.
@@ -31,7 +31,7 @@ class Application
     public function __construct($config)
     {
         $this->config = new Config($config);
-        $this->client = new Client();
+        $this->client = HttpClient::create();
     }
 
     public function __get($name)

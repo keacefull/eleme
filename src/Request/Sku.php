@@ -8,7 +8,7 @@ class Sku extends BaseRequest
      * 新增店铺内分类.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCategoryCreate(array $params)
     {
@@ -19,7 +19,7 @@ class Sku extends BaseRequest
      * 删除店铺内分类.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCategoryDelete(array $params)
     {
@@ -30,7 +30,7 @@ class Sku extends BaseRequest
      * 获取店铺内分类.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCategoryGet(array $params)
     {
@@ -41,7 +41,7 @@ class Sku extends BaseRequest
      * 根据店铺内分类获取商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function getItemsByCategoryId(array $params)
     {
@@ -52,7 +52,7 @@ class Sku extends BaseRequest
      * 仓货品共享库存.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function warehouseStockUpdate(array $params)
     {
@@ -63,7 +63,7 @@ class Sku extends BaseRequest
      * 获取商品类目列表.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function categoryList(array $params)
     {
@@ -74,7 +74,7 @@ class Sku extends BaseRequest
      * 单个创建商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function create(array $params)
     {
@@ -85,7 +85,7 @@ class Sku extends BaseRequest
      * 绑定商品与店铺内分类.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCategoryMap(array $params)
     {
@@ -96,7 +96,7 @@ class Sku extends BaseRequest
      * 修改店铺内分类.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCategoryUpdate(array $params)
     {
@@ -107,7 +107,7 @@ class Sku extends BaseRequest
      * 获取店铺内分类下商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCustomSkuList(array $params)
     {
@@ -118,7 +118,7 @@ class Sku extends BaseRequest
      * 批量删除商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function delete(array $params)
     {
@@ -129,7 +129,7 @@ class Sku extends BaseRequest
      * 单个商品修改.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function update(array $params)
     {
@@ -140,7 +140,7 @@ class Sku extends BaseRequest
      * 获取品牌列表.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function brandList(array $params)
     {
@@ -151,7 +151,7 @@ class Sku extends BaseRequest
      * 根据条形码查询是否平台药品SPU.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function stdupcExist(array $params)
     {
@@ -162,7 +162,7 @@ class Sku extends BaseRequest
      * 商品列表.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function list(array $params)
     {
@@ -173,7 +173,7 @@ class Sku extends BaseRequest
      * 批量商品下架.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function offline(array $params)
     {
@@ -184,7 +184,7 @@ class Sku extends BaseRequest
      * 单个商品下架.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function offlineOne(array $params)
     {
@@ -195,7 +195,7 @@ class Sku extends BaseRequest
      * 批量商品上架.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function online(array $params)
     {
@@ -206,7 +206,7 @@ class Sku extends BaseRequest
      * 单个商品上架.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function onlineOne(array $params)
     {
@@ -217,7 +217,7 @@ class Sku extends BaseRequest
      * 批量修改商品价格
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function priceUpdateBatch(array $params)
     {
@@ -228,7 +228,7 @@ class Sku extends BaseRequest
      * 单个修改商品价格
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function priceUpdateOne(array $params)
     {
@@ -239,7 +239,7 @@ class Sku extends BaseRequest
      * 绑定商品与商品自定义ID.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCustomSkuMap(array $params)
     {
@@ -250,7 +250,7 @@ class Sku extends BaseRequest
      * 批量修改商品库存.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function stockUpdateBatch(array $params)
     {
@@ -261,7 +261,7 @@ class Sku extends BaseRequest
      * 单个修改商品库存.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function stockUpdateOne(array $params)
     {
@@ -272,7 +272,7 @@ class Sku extends BaseRequest
      * 商品图文详情上传.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function uploadRtf(array $params)
     {
@@ -283,7 +283,7 @@ class Sku extends BaseRequest
      * 查询平台商品条码
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function stdUpcBarcode(array $params)
     {
@@ -294,7 +294,7 @@ class Sku extends BaseRequest
      * 查询渠道商品的类目属性值
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function categoryPropertyQuery(array $params)
     {
@@ -305,7 +305,7 @@ class Sku extends BaseRequest
      * 查询类目属性值列表.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function categoryPropertyList(array $params)
     {
@@ -316,7 +316,7 @@ class Sku extends BaseRequest
      * 商品多规格修改库存.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function specStockUpdate(array $params)
     {
@@ -327,7 +327,7 @@ class Sku extends BaseRequest
      * 增量更新单个商品库存.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function stockIncreaseOne(array $params)
     {
@@ -338,7 +338,7 @@ class Sku extends BaseRequest
      * 更新渠道商品多规格价格
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function specUpdatePrice(array $params)
     {
@@ -349,7 +349,7 @@ class Sku extends BaseRequest
      * 渠道商品追加多规格sku.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function specUpdateAppend(array $params)
     {

@@ -8,7 +8,7 @@ class Ugc extends BaseRequest
      * 回复评论.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function reply(array $params)
     {
@@ -19,7 +19,7 @@ class Ugc extends BaseRequest
      * 获取商户订单评论.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function orderCommentGet(array $params)
     {

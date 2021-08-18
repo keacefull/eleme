@@ -8,7 +8,7 @@ class Prescription extends BaseRequest
      * 获取订单相关处方单.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function files(array $params)
     {
@@ -19,7 +19,7 @@ class Prescription extends BaseRequest
      * 处方药推方.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      * @deprecated
      */
     public function push(array $params)
@@ -31,7 +31,7 @@ class Prescription extends BaseRequest
      * 三方医疗-搜索药品
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function search(array $params)
     {
@@ -42,7 +42,7 @@ class Prescription extends BaseRequest
      * ERP店铺确认订单状态
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function confirmOrderStatus(array $params)
     {
@@ -53,7 +53,7 @@ class Prescription extends BaseRequest
      * 三方医疗-回传处方.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function save(array $params)
     {

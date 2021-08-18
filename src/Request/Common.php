@@ -8,7 +8,7 @@ class Common extends BaseRequest
      * 商户分类信息接口.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCategories(array $params)
     {
@@ -19,7 +19,7 @@ class Common extends BaseRequest
      * 业态分类接口.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function businessCategories(array $params)
     {
@@ -30,7 +30,7 @@ class Common extends BaseRequest
      * 上传图片.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function upload(array $params)
     {
@@ -41,7 +41,7 @@ class Common extends BaseRequest
      * 城市信息接口文档.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function shopCities(array $params)
     {
@@ -52,7 +52,7 @@ class Common extends BaseRequest
      * 查询商户分类信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopCategoryGet(array $params)
     {
@@ -63,7 +63,7 @@ class Common extends BaseRequest
      * 获取城市信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopCityGet(array $params)
     {

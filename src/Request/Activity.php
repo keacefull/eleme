@@ -8,7 +8,7 @@ class Activity extends BaseRequest
      * 下线商品营销活动.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function disable(array $params)
     {
@@ -19,7 +19,7 @@ class Activity extends BaseRequest
      * 创建商品营销活动.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function create(array $params)
     {
@@ -30,7 +30,7 @@ class Activity extends BaseRequest
      * 查看活动信息.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function get(array $params)
     {
@@ -41,7 +41,7 @@ class Activity extends BaseRequest
      * N选1添加活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function ns1SkuAdd(array $params)
     {
@@ -52,7 +52,7 @@ class Activity extends BaseRequest
      * N选1批量添加活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function ns1SkuAddBatch(array $params)
     {
@@ -63,7 +63,7 @@ class Activity extends BaseRequest
      * N选1删除活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function ns1SkuDelete(array $params)
     {
@@ -74,7 +74,7 @@ class Activity extends BaseRequest
      * N选1批量删除活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function ns1SkuDeleteBatch(array $params)
     {
@@ -85,7 +85,7 @@ class Activity extends BaseRequest
      * 添加活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function skuAdd(array $params)
     {
@@ -96,7 +96,7 @@ class Activity extends BaseRequest
      * 批量添加活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function skuAddBatch(array $params)
     {
@@ -107,7 +107,7 @@ class Activity extends BaseRequest
      * 删除活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function skuDelete(array $params)
     {
@@ -118,7 +118,7 @@ class Activity extends BaseRequest
      * 批量删除活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function skuDeleteBatch(array $params)
     {
@@ -129,7 +129,7 @@ class Activity extends BaseRequest
      * 查看活动商品信息.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function skuList(array $params)
     {
@@ -140,7 +140,7 @@ class Activity extends BaseRequest
      * 更新活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function skuUpdate(array $params)
     {
@@ -151,7 +151,7 @@ class Activity extends BaseRequest
      * 批量更新活动商品
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function skuUpdateBatch(array $params)
     {
@@ -162,7 +162,7 @@ class Activity extends BaseRequest
      * 更新活动信息.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function update(array $params)
     {
@@ -173,7 +173,7 @@ class Activity extends BaseRequest
      * 创建第N件特价活动.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nItemSpecialCreate(array $params)
     {
@@ -184,7 +184,7 @@ class Activity extends BaseRequest
      * 店铺类活动添加单个店铺.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopActDetailAddSingle(array $params)
     {
@@ -195,7 +195,7 @@ class Activity extends BaseRequest
      * 查看买N赠M查询活动商品信息列表.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nGiftmSkuList(array $params)
     {
@@ -206,7 +206,7 @@ class Activity extends BaseRequest
      * 更新第N件特价活动商品库存、日库存.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nItemSpecialSkuUpdate(array $params)
     {
@@ -217,7 +217,7 @@ class Activity extends BaseRequest
      * 多渠道查询活动详情.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function multiChannelQueryInfos(array $params)
     {
@@ -228,7 +228,7 @@ class Activity extends BaseRequest
      * 更新N选1活动信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function ns1Update(array $params)
     {
@@ -239,7 +239,7 @@ class Activity extends BaseRequest
      * 多渠道查询获取参与的活动IdList.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function multiChannelQueryIds(array $params)
     {
@@ -250,7 +250,7 @@ class Activity extends BaseRequest
      * 添加第N件特价活动商品
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nItemSpecialSkuAdd(array $params)
     {
@@ -261,7 +261,7 @@ class Activity extends BaseRequest
      * 店铺类活动查询活动明细信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopActDetailQuery(array $params)
     {
@@ -272,7 +272,7 @@ class Activity extends BaseRequest
      * 查看买N赠M活动信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nGiftmGet(array $params)
     {
@@ -283,7 +283,7 @@ class Activity extends BaseRequest
      * 店铺类活动信息修改.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopActModify(array $params)
     {
@@ -294,7 +294,7 @@ class Activity extends BaseRequest
      * 批量添加买N赠M活动商品
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nGiftmSkuAddBatch(array $params)
     {
@@ -305,7 +305,7 @@ class Activity extends BaseRequest
      * 批量更新买N赠M活动商品库存、日库存信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nGiftmSkuUpdateBatch(array $params)
     {
@@ -316,7 +316,7 @@ class Activity extends BaseRequest
      * 更新第N件特价活动信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nItemSpecialUpdate(array $params)
     {
@@ -327,7 +327,7 @@ class Activity extends BaseRequest
      * 店铺类活动删除店铺.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopActDetailDel(array $params)
     {
@@ -338,7 +338,7 @@ class Activity extends BaseRequest
      * 查看第N件特价活动信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nItemSpecialGet(array $params)
     {
@@ -349,7 +349,7 @@ class Activity extends BaseRequest
      * 店铺类活动删除单个店铺.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopActDetailDelSingle(array $params)
     {
@@ -360,7 +360,7 @@ class Activity extends BaseRequest
      * 更新买N赠M活动信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nGiftmUpdate(array $params)
     {
@@ -371,7 +371,7 @@ class Activity extends BaseRequest
      * 创建店铺类活动.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopActCreate(array $params)
     {
@@ -382,7 +382,7 @@ class Activity extends BaseRequest
      * 店铺类活动查询活动信息.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopActQuery(array $params)
     {
@@ -393,7 +393,7 @@ class Activity extends BaseRequest
      * 更新买N赠M活动商品库存、日库存等.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nGiftmSkuUpdate(array $params)
     {
@@ -404,7 +404,7 @@ class Activity extends BaseRequest
      * 店铺类活动添加店铺.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function shopActDetailAdd(array $params)
     {
@@ -415,7 +415,7 @@ class Activity extends BaseRequest
      * 创建买N赠M营销活动.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nGiftmCreate(array $params)
     {
@@ -426,7 +426,7 @@ class Activity extends BaseRequest
      * 批量添加第N件特价活动商品
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nItemSpecialSkuAddBatch(array $params)
     {
@@ -437,7 +437,7 @@ class Activity extends BaseRequest
      * 添加买N赠M活动商品和相应赠品
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nGiftmSkuAdd(array $params)
     {
@@ -448,7 +448,7 @@ class Activity extends BaseRequest
      * 批量更新第N件特价活动商品库存、日库存.
      *
      * @param array $params
-     * @return string
+     * @return mixed
      */
     public function nItemSpecialSkuUpdateBatch(array $params)
     {

@@ -8,7 +8,7 @@ class Shop extends BaseRequest
      * 获取商户公告.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function announcementGet(array $params)
     {
@@ -19,7 +19,7 @@ class Shop extends BaseRequest
      * 设置商户公告.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function announcementSet(array $params)
     {
@@ -30,7 +30,7 @@ class Shop extends BaseRequest
      * 获取商户资质.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function aptitudeGet(array $params)
     {
@@ -41,7 +41,7 @@ class Shop extends BaseRequest
      * 获取全部资质类型.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function aptitudeGetTypes(array $params)
     {
@@ -52,7 +52,7 @@ class Shop extends BaseRequest
      * 上传资质.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function aptitudeUpload(array $params)
     {
@@ -63,7 +63,7 @@ class Shop extends BaseRequest
      * 门店绑定消息推送
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      * @deprecated
      */
     public function bindMsg(array $params)
@@ -75,7 +75,7 @@ class Shop extends BaseRequest
      * 查看商户的营业状态
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function busStatusGet(array $params)
     {
@@ -86,7 +86,7 @@ class Shop extends BaseRequest
      * 商户歇业.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function close(array $params)
     {
@@ -97,7 +97,7 @@ class Shop extends BaseRequest
      * 创建商户.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function create(array $params)
     {
@@ -108,7 +108,7 @@ class Shop extends BaseRequest
      * 查看商户.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function get(array $params)
     {
@@ -119,7 +119,7 @@ class Shop extends BaseRequest
      * 商户三方门店ID映射.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function idBatchUpdate(array $params)
     {
@@ -130,7 +130,7 @@ class Shop extends BaseRequest
      * 商户列表.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function list(array $params)
     {
@@ -141,7 +141,7 @@ class Shop extends BaseRequest
      * 门店状态变更消息通知.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      * @deprecated
      */
     public function msgPush(array $params)
@@ -153,7 +153,7 @@ class Shop extends BaseRequest
      * 商户暂停营业.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      * @deprecated
      */
     public function offline(array $params)
@@ -165,7 +165,7 @@ class Shop extends BaseRequest
      * 商户开业.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function open(array $params)
     {
@@ -176,7 +176,7 @@ class Shop extends BaseRequest
      * 查看商户状态
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function statusGet(array $params)
     {
@@ -187,7 +187,7 @@ class Shop extends BaseRequest
      * 门店解绑消息推送
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      * @deprecated
      */
     public function unbindMsg(array $params)
@@ -199,7 +199,7 @@ class Shop extends BaseRequest
      * 修改商户.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function update(array $params)
     {
@@ -210,7 +210,7 @@ class Shop extends BaseRequest
      * 查询自配送物流信息.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function deliveryInfoGet(array $params)
     {
@@ -221,7 +221,7 @@ class Shop extends BaseRequest
      * 同步自配送物流信息.
      *
      * @param  array  $params
-     * @return string
+     * @return mixed
      */
     public function deliveryInfoSync(array $params)
     {
